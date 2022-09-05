@@ -113,6 +113,7 @@ section.combat_llistat div.cardContainer{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    
 }
 
 section.combat_llistat div.cardContainer article.card {
