@@ -1,5 +1,8 @@
 /* BASIC RESET */
-* {
+* { 
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
     font-family: sans-serif;
     line-height: 25px;
 }
@@ -73,7 +76,17 @@ section.loading{
 section.llistat{
     /*display:flex;
 flex-wrap: wrap;*/
-display: none;} 
+
+/*display: none;*/
+
+
+    display: flex;
+    flex-wrap: wrap;
+        flex-direction: row;
+        row-gap: 25px;
+        column-gap: 25px;
+
+} 
 
 
 /*CODI IRENE*/
