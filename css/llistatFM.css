@@ -28,6 +28,8 @@ header ul {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    /*Añado pdding 10px*/
+    padding: 10px;
 }
 
 header ul li.li_nav ul li {
@@ -62,7 +64,8 @@ section.loading{
 .buscador{
     background-color: slategrey;
     color: whitesmoke;
-    height: 110px;
+    /*cambio height de 110 a 75*/
+    height: 75px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
